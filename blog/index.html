@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f6f2" />
+    <meta name="description" content="Fieldnotes is an independent journal for thoughtful living, creative work, and a more curious world." />
+    <title>Fieldnotes — Ideas for a life well observed</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="announcement"><span class="announcement-dot"></span> A little more wonder in your inbox. <a href="#newsletter">Get the Sunday Letter <span aria-hidden="true">↗</span></a></div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Fieldnotes home">fieldnotes<span>.</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#latest">Stories</a>
+        <a href="#topics">Topics</a>
+        <a href="#about">About</a>
+        <a class="nav-cta" href="#newsletter">The Sunday Letter <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero page-wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> The art of paying attention</div>
+          <h1 id="hero-title">Ideas for a life <em>well observed.</em></h1>
+          <p class="hero-intro">A journal for curious minds. Notes on making, meaning, and finding the extraordinary in the everyday.</p>
+          <a class="text-link" href="#latest">Explore the stories <span aria-hidden="true">→</span></a>
+          <div class="hero-note"><span class="note-star">✳</span><span>Independent publishing<br />for curious people</span></div>
+        </div>
+        <a class="feature-card" href="#featured-story" aria-label="Read The quiet power of doing one thing at a time">
+          <div class="feature-art" aria-hidden="true">
+            <div class="art-sun"></div><div class="art-window"><i></i><i></i><i></i><i></i></div>
+            <div class="art-table"></div><div class="art-vase"></div><div class="art-book"></div>
+            <span class="art-caption">A study in stillness · No. 08</span>
+          </div>
+          <div class="feature-meta"><span class="pill">Editor's pick</span><span>7 min read</span></div>
+          <h2 id="featured-story">The quiet power of doing one thing at a time</h2>
+          <div class="byline"><span class="avatar avatar-amber">AM</span><span>By Alex Morgan</span><span class="meta-divider">·</span><span>May 18, 2025</span></div>
+        </a>
+      </section>
+
+      <section class="topic-strip page-wrap" id="topics" aria-label="Browse topics">
+        <div class="section-kicker"><span>Explore by topic</span><span class="kicker-rule"></span></div>
+        <div class="topic-list">
+          <button class="topic-chip is-active" data-filter="all">Everything <span>08</span></button>
+          <button class="topic-chip" data-filter="Culture">Culture <span>03</span></button>
+          <button class="topic-chip" data-filter="Living">Living <span>02</span></button>
+          <button class="topic-chip" data-filter="Creativity">Creativity <span>02</span></button>
+          <button class="topic-chip" data-filter="Perspective">Perspective <span>01</span></button>
+        </div>
+      </section>
+
+      <section class="content-layout page-wrap" id="latest">
+        <div class="stories-column">
+          <div class="section-heading">
+            <div><div class="eyebrow small-eyebrow"><span class="eyebrow-line"></span> Fresh from the journal</div><h2>Latest stories<span class="heading-period">.</span></h2></div>
+            <label class="search-box"><span class="search-icon" aria-hidden="true">⌕</span><input id="story-search" type="search" placeholder="Find a story" aria-label="Search stories" /><kbd>⌘ K</kbd></label>
+          </div>
+          <div class="story-grid" id="story-grid">
+            <article class="story-card" data-category="Culture" data-search="why we still keep a bookshelf culture reading books home">
+              <a class="story-art art-books" href="#article-books" aria-label="Read Why we still keep a bookshelf"><span class="art-label">OBJECTS &amp; MEANING</span><div class="book-stack"><i></i><i></i><i></i><i></i><i></i></div><div class="plant"><i></i><i></i><i></i></div></a>
+              <div class="card-content"><div class="card-meta"><span>Culture</span><span>6 min read</span></div><h3><a href="#article-books">Why we still keep a bookshelf</a></h3><p>In a world made of tabs, the humble bookcase is a map of who we are.</p><div class="card-author"><span class="avatar avatar-blue">JL</span><span>Jamie Lee</span><span class="meta-divider">·</span><span>May 16</span></div></div>
+            </article>
+            <article class="story-card" data-category="Living" data-search="a slower kind of morning living rituals coffee light">
+              <a class="story-art art-morning" href="#article-morning" aria-label="Read A slower kind of morning"><span class="art-label">ROOM TO BREATHE</span><div class="morning-sun"></div><div class="morning-cup"></div><div class="morning-shadow"></div></a>
+              <div class="card-content"><div class="card-meta"><span>Living</span><span>4 min read</span></div><h3><a href="#article-morning">A slower kind of morning</a></h3><p>Small rituals that make the first hour feel like it belongs to you.</p><div class="card-author"><span class="avatar avatar-green">SK</span><span>Sam Kim</span><span class="meta-divider">·</span><span>May 14</span></div></div>
+            </article>
+            <article class="story-card" data-category="Creativity" data-search="permission to make a mess creativity process ideas art">
+              <a class="story-art art-mess" href="#article-mess" aria-label="Read Permission to make a mess"><span class="art-label">THE CREATIVE LIFE</span><div class="mess-shape shape-one"></div><div class="mess-shape shape-two"></div><div class="mess-shape shape-three"></div><span class="mess-mark">make<br />room</span></a>
+              <div class="card-content"><div class="card-meta"><span>Creativity</span><span>8 min read</span></div><h3><a href="#article-mess">Permission to make a mess</a></h3><p>The case for beginning before you know exactly where you're going.</p><div class="card-author"><span class="avatar avatar-rose">NR</span><span>Noah Rivera</span><span class="meta-divider">·</span><span>May 12</span></div></div>
+            </article>
+            <article class="story-card" data-category="Perspective" data-search="the generous art of changing your mind perspective curiosity learning">
+              <a class="story-art art-mind" href="#article-mind" aria-label="Read The generous art of changing your mind"><span class="art-label">OPEN QUESTIONS</span><div class="mind-orbit orbit-one"></div><div class="mind-orbit orbit-two"></div><div class="mind-orbit orbit-three"></div><span class="mind-center">?</span></a>
+              <div class="card-content"><div class="card-meta"><span>Perspective</span><span>5 min read</span></div><h3><a href="#article-mind">The generous art of changing your mind</a></h3><p>Curiosity isn't uncertainty. Sometimes it's the most honest kind of confidence.</p><div class="card-author"><span class="avatar avatar-lilac">ET</span><span>Ella Thomas</span><span class="meta-divider">·</span><span>May 10</span></div></div>
+            </article>
+            <article class="story-card is-extra" style="display:none" data-category="Culture" data-search="small museums big feelings culture art quiet rooms">
+              <a class="story-art art-mind" href="#article-museums" aria-label="Read Small museums, big feelings"><span class="art-label">CULTURE NOTES</span><div class="mind-orbit orbit-one"></div><div class="mind-orbit orbit-two"></div><div class="mind-orbit orbit-three"></div><span class="mind-center">✳</span></a>
+              <div class="card-content"><div class="card-meta"><span>Culture</span><span>6 min read</span></div><h3><a href="#article-museums">Small museums, big feelings</a></h3><p>Why the rooms we almost walk past often stay with us the longest.</p><div class="card-author"><span class="avatar avatar-amber">AM</span><span>Alex Morgan</span><span class="meta-divider">·</span><span>May 08</span></div></div>
+            </article>
+            <article class="story-card is-extra" style="display:none" data-category="Culture" data-search="the things we inherit stories objects culture family">
+              <a class="story-art art-books" href="#article-inherit" aria-label="Read The things we inherit"><span class="art-label">KEPT &amp; PASSED ON</span><div class="book-stack"><i></i><i></i><i></i><i></i><i></i></div><div class="plant"><i></i><i></i><i></i></div></a>
+              <div class="card-content"><div class="card-meta"><span>Culture</span><span>7 min read</span></div><h3><a href="#article-inherit">The things we inherit</a></h3><p>Some family heirlooms are less about what they are than what they remember.</p><div class="card-author"><span class="avatar avatar-blue">JL</span><span>Jamie Lee</span><span class="meta-divider">·</span><span>May 06</span></div></div>
+            </article>
+            <article class="story-card is-extra" style="display:none" data-category="Living" data-search="a home for the in-between spaces living home design">
+              <a class="story-art art-morning" href="#article-between" aria-label="Read A home for the in-between"><span class="art-label">ROOM TO BREATHE</span><div class="morning-sun"></div><div class="morning-cup"></div><div class="morning-shadow"></div></a>
+              <div class="card-content"><div class="card-meta"><span>Living</span><span>5 min read</span></div><h3><a href="#article-between">A home for the in-between</a></h3><p>The overlooked corners that make a house feel unmistakably yours.</p><div class="card-author"><span class="avatar avatar-green">SK</span><span>Sam Kim</span><span class="meta-divider">·</span><span>May 04</span></div></div>
+            </article>
+            <article class="story-card is-extra" style="display:none" data-category="Creativity" data-search="collecting unfinished things creativity ideas scraps">
+              <a class="story-art art-mess" href="#article-unfinished" aria-label="Read In praise of the unfinished"><span class="art-label">THE CREATIVE LIFE</span><div class="mess-shape shape-one"></div><div class="mess-shape shape-two"></div><div class="mess-shape shape-three"></div><span class="mess-mark">in<br />progress</span></a>
+              <div class="card-content"><div class="card-meta"><span>Creativity</span><span>6 min read</span></div><h3><a href="#article-unfinished">In praise of the unfinished</a></h3><p>A collection of half-formed ideas can be a more useful tool than a plan.</p><div class="card-author"><span class="avatar avatar-rose">NR</span><span>Noah Rivera</span><span class="meta-divider">·</span><span>May 02</span></div></div>
+            </article>
+          </div>
+          <p class="empty-state" id="empty-state" hidden>No stories found. Try a different search or topic.</p>
+          <button class="load-more" id="load-more">More good reads <span aria-hidden="true">↓</span></button>
+        </div>
+
+        <aside class="sidebar">
+          <section class="trending-panel"><div class="side-heading"><span class="trending-spark">✳</span><h2>Worth your time</h2></div><p class="side-subtitle">A few reader favorites this week.</p>
+            <a class="trend-item" href="#trend-one"><span class="trend-number">01</span><span class="trend-copy"><strong>On being a beginner, again</strong><small>Creativity · 5 min read</small></span><span class="trend-arrow">↗</span></a>
+            <a class="trend-item" href="#trend-two"><span class="trend-number">02</span><span class="trend-copy"><strong>The places we go to think</strong><small>Living · 7 min read</small></span><span class="trend-arrow">↗</span></a>
+            <a class="trend-item" href="#trend-three"><span class="trend-number">03</span><span class="trend-copy"><strong>A field guide to noticing</strong><small>Culture · 4 min read</small></span><span class="trend-arrow">↗</span></a>
+          </section>
+          <section class="newsletter-card" id="newsletter"><div class="newsletter-icon">✳</div><p class="newsletter-label">A note from us</p><h2>Make room for<br /><em>good ideas.</em></h2><p class="newsletter-description">One thoughtful email, every Sunday. The kind you actually look forward to.</p><form id="newsletter-form"><label class="sr-only" for="email">Your email address</label><input id="email" name="email" type="email" placeholder="Your email address" required /><button type="submit" aria-label="Subscribe">→</button></form><p class="form-message" id="form-message" aria-live="polite">No noise. Unsubscribe whenever.</p></section>
+          <div class="sidebar-note"><span class="note-star">✳</span><p>Made slowly, read whenever.<br /><strong>That's the Fieldnotes way.</strong></p></div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="about"><div class="footer-inner page-wrap"><div><a class="wordmark footer-wordmark" href="#top">fieldnotes<span>.</span></a><p>For a life well observed.</p></div><div class="footer-links"><a href="#about">Our story</a><a href="#topics">Topics</a><a href="#newsletter">Newsletter</a><a href="mailto:hello@fieldnotes.example">Say hello</a></div><span class="copyright">© 2025 Fieldnotes Journal</span></div></footer>
+  </body>
+</html>
